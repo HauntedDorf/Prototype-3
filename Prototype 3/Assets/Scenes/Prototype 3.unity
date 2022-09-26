@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 10
-  gravityModifier: 1.5
+  gravityModifier: 1.2
   isOnGround: 1
   gameOver: 0
 --- !u!65 &82129517
@@ -155,8 +155,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0835776, y: 3.1401076, z: 1.4876636}
-  m_Center: {x: -0.013635874, y: 1.5705998, z: -0.049238473}
+  m_Size: {x: 2.0835776, y: 3.159263, z: 1.4876636}
+  m_Center: {x: -0.013635874, y: 1.5610222, z: -0.049238443}
 --- !u!54 &82129518
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -637,7 +637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009877508733817583, guid: f02deb73c2638124cb38a6222e674273, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
